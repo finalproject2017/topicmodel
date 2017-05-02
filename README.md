@@ -21,6 +21,7 @@ Part 1: Complie (Execute this command at lda file)
 
 
 Part 2: Preprocess Data:(Execute py file)
+      
       1. tripavisor.json => all2en.py => enDoc.txt
       2. enDoc.txt => preprocess.py => cleanDoc.txt
       3. cleanDoc.txt => build_word_matrix.py => wordBags.txt , doc_word_matrix.npy  (change cutoff: only words appear in more than cutfoo times in document)
@@ -28,7 +29,7 @@ Part 2: Preprocess Data:(Execute py file)
 
 
 
-Part 3: LDA(Execute py file)
+Part 3: LDA(Execute py file) execute test_lda.py
      
       # Load document-vocab matrix
       1. X = np.load('doc_word_matrix.npy')
