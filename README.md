@@ -63,5 +63,11 @@ Part 4: Dependencies
           2. python 2.7: 
                    numpy, cython, pbr, gensim, stop_words, nltk, lda, textmining, guess_language
           3. Architecture:
+	                 CPU:      AuthenticAMD
+			 AMD Opteron(tm) Processor 4386
+			 Architecture:          x86_64
+                         CPU op-mode(s):        32-bit, 64-bit
+			 CPU(s):                16
+	                 MemTotal: 98977448 kB
 
 
