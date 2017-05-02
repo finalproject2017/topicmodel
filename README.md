@@ -1,7 +1,7 @@
 # topicmodel
 
 
-Part 1: Complie (Execute these command at /code/lda file)
+Part 1: Complie (Execute these command at /code/lda )
 
        # complie _lda.pyx => _lda.c => _lda.so
        
@@ -20,7 +20,7 @@ Part 1: Complie (Execute these command at /code/lda file)
 
 
 
-Part 2: Preprocess Data:(Execute py file in /code/pro_data/ file)
+Part 2: Preprocess Data:(Execute py file in /code/pro_data/ )
       
       1. tripavisor.json => all2en.py => enDoc.txt
       2. enDoc.txt => preprocess.py => cleanDoc.txt
@@ -29,7 +29,7 @@ Part 2: Preprocess Data:(Execute py file in /code/pro_data/ file)
 
 
 
-Part 3: LDA(Execute test_lda.py in /code file) 
+Part 3: LDA(Execute test_lda.py in /code ) 
      
       # Load document-vocab matrix
       1. X = np.load('doc_word_matrix.npy')
