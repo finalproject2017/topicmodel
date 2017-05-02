@@ -1,0 +1,8 @@
+
+gcc -c -mtune=generic -march=x86-64 -g -O3 -fno-strict-aliasing -fwrapv -fPIC gamma.c
+
+
+
+gcc -shared -mtune=generic -march=x86-64 -g -O3 -fno-strict-aliasing -fwrapv -fPIC -I/usr/include/python2.7 -o _lda.so _lda.c gamma.o
+
+
